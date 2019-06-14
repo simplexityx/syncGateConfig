@@ -14,9 +14,9 @@
     }
   },
   "Cors" : {
-        "Origin": ["http://localhost:8080", "http://localhost:4200", http://localhost:4984]
-        "LoginOrigin: ["http://localhost:8080", "http://localhost:4200", http://localhost:4984]
-        "Headers": ["Content-Type"]
+        "Origin": [*]
+        "LoginOrigin: [*]
+        "Headers": [*]
         "MaxAge": 17280000
    }
 }
