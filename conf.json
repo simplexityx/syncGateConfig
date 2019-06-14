@@ -1,0 +1,22 @@
+{
+  "logging": {
+    "console": {
+      "log_keys": ["*"]
+    }
+  },
+  "databases": {
+    "db": {
+      "server": "walrus:",
+      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } },
+      "allow_empty_password": true,
+      "allow_conflicts": false,
+      "revs_limit": 20
+    }
+  },
+  "Cors" : {
+        "Origin": ["http://localhost:8080", "http://localhost:4200", http://localhost:4984]
+        "LoginOrigin: ["http://localhost:8080", "http://localhost:4200", http://localhost:4984]
+        "Headers": ["Content-Type"]
+        "MaxAge": 17280000
+   }
+}
